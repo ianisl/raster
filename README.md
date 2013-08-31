@@ -5,15 +5,15 @@ Html canvas to image done right.
 
 #### Features
 
-Save canvas as a jpeg (with quality 1) or a png.
+Saves canvas as a jpeg (with quality 1) or a png.
 
 ###### Chrome
 
-Automatically download your image file, with the right filename and extension.
+Automatically downloads the image file, with the right filename and extension.
 
 ###### Firefox
 
-Download your file via a file download dialog box.
+Downloads the image file via a file download dialog box.
 
 #### Usage
 
