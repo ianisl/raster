@@ -1,27 +1,23 @@
-Raster.js
-======
+## Raster.js
+
 
 Html canvas to png or jpeg, done right.
 
-Features
-======
+#### Features
 
-Chrome
-------
+
+###### Chrome
 
 Automatically download your image file, with the right filename and extension.
 
-Firefox
-------
+###### Firefox
 
 Download your file via a file download dialog box.
 
-Usage
-======
+#### Usage
 
 See example.htm source.
 
-Credits
-======
+#### Credits
 
 'Automatic download' trick borrowed from http://techslides.com/html5-download-attribute-with-javascript/.
