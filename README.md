@@ -7,13 +7,12 @@ Canvas to image done right. Because saving an image should be as simple as press
 
 Saves canvas as a jpeg (with quality 1) or a png.
 
-###### Chrome
+Automatically download the image, with the right filename and extension.
 
-Automatically downloads the image file, with the right filename and extension.
 
-###### Firefox
+###### Compatibility
 
-Downloads the image file via a file download dialog box.
+Tested in latest Chrome and Firefox as of 2013-08-31.
 
 
 #### Usage
