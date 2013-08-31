@@ -3,12 +3,6 @@
 // Uses canvas.toDataUrl(), the html 5 download attribute
 // and a custom click event to trigger the download
 // (source: http://techslides.com/html5-download-attribute-with-javascript/).
-//
-// Compatibility (as of 2013-08-31) :
-// - file is automatically downloaded in Chrome
-// - automatic download doesn't work in Firefox, but the browser displays a save dialog
-// - the image is opened in a new window in Safari
-
 
 
 
