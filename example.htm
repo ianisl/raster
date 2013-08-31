@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Raster.js example</title>
+        <meta charset="utf-8">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="raster.js" type="text/javascript"></script>
+        <script type="text/javascript">
+
+            $(document).ready(function() {
+
+                var canvas = document.getElementById('canvas');
+                var ctx = canvas.getContext('2d');
+
+                ctx.fillStyle = "white";
+                ctx.fillRect(0, 0, 200, 200);
+                ctx.strokeStyle = "black";
+                ctx.moveTo(0, 200);
+                ctx.lineTo(200, 0);
+                ctx.stroke();
+
+                // Press 's' to save canvas as jpg
+                $("body").keydown(function(event) {
+                    if (event.which === 83) {
+                        raster(canvas, "myFile", "jpeg");
+                    }
+                });
+
+            });
+
+        </script>
+    </head>
+    <body>
+        <p>Press s to save canvas to a jpg.</p>
+        <canvas height="200" id="canvas" width="200"></canvas>
+    </body>
+</html>
