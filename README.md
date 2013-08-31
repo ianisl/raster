@@ -1,6 +1,6 @@
 ## Raster.js
 
-Html canvas to image done right.
+Canvas to image done right.
 
 
 #### Features
@@ -15,9 +15,11 @@ Automatically downloads the image file, with the right filename and extension.
 
 Downloads the image file via a file download dialog box.
 
+
 #### Usage
 
 See example.htm source.
+
 
 #### Credits
 
