@@ -1,10 +1,11 @@
 ## Raster.js
 
+Html canvas to image done right.
 
-Html canvas to png or jpeg, done right.
 
 #### Features
 
+Save canvas as a jpeg (with quality 1) or a png.
 
 ###### Chrome
 
