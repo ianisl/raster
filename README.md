@@ -1,6 +1,6 @@
 ## Raster.js
 
-Because saving a html canvas to an image should be as simple as pressing a key.
+Because saving an html canvas to an image should be as simple as pressing a key.
 
 
 #### Features
